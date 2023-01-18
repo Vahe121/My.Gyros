@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* ////////////////////HOME///////////////////// */
+.home{
+    width: 100%;
+    height: 120vh;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    position: relative;
+    z-index: 6;
+}
+.head_logo{
+    width: 260px;
+    height: 100px;
+    background-image: url(img/logo-removebg-preview.png);
+    background-size: cover;
+}
+.head_menu{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.head_menu > ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head_menu a{
+    font-size: 23px;
+    color: rgb(58, 70, 142);
+    transition: .3s;
+}
+.head_menu a:hover{
+    color: rgb(191, 13, 13);
+}
+.home_a{
+    color: rgb(191, 13, 13);
+}
+.glass , .glass2{
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(58, 70, 142);
+}
+.search{
+    width: 270px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 4px black;
+    position: absolute;
+    right: 0;
+    transform: translateY(-100px);
+    transition: .3s;
+    z-index: 2;
+}
+.search input{
+    width: 95%;
+    height: 80%;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 25px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.search_js{
+    transform: translateY(20px);
+}
+
+.head_burger{
+    display: none;
+}
+.burger_menu{
+    display: none;
+    
+}
+.home_img{
+    width: 100%;
+    height: 113vh;
+    background-image: url(img/1627041912_60fab07879444.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* /////////////////////////INFO////////////////////////// */
+.info{
+    width: 100%;
+    height: auto;
+    background-image: url(img/r1196-bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.info_text{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 25px;
+}
+.info_text > h1{
+    color: rgb(58, 70, 142);
+    font-size: 45px;
+}
+.info_text > button{
+    width: 150px;
+    height: 60px;
+    border-radius: 35px;
+    border: none;
+    background-color: rgb(191, 13, 13);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.info_text > button:hover{
+    background-color: white;
+    color: rgb(191, 13, 13);
+    border: 2px solid rgb(191, 13, 13);
+}
+
+/* //////////////////////////MENU////////////////// */
+
+.menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(58, 70, 142);
+    padding: 10px 0;
+    gap: 10px;
+}
+.menu > h1{
+    font-size: 45px;
+}
+.menu_decor{
+    width: 150px;
+    height: 15px;
+    background-image: url(img/2864-det.webp);
+    background-size: cover;
+}
+.menu_main{
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    gap: 25px;
+}
+.menu_box{
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_scale{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.menu_box1 > .menu_scale{
+    background-image: url(img/1.jpg);
+    background-size: cover;
+}
+.menu_box2 > .menu_scale{
+    background-image: url(img/2.png);
+    background-size: cover;
+}
+.menu_box3 > .menu_scale{
+    background-image: url(img/3.jpg);
+    background-size: cover;
+}
+.menu_box4 > .menu_scale{
+    background-image: url(img/4.jpg);
+    background-size: cover;
+}
+.menu_box5 > .menu_scale{
+    background-image: url(img//5.png);
+    background-size: cover;
+}
+.menu_box6 > .menu_scale{
+    background-image: url(img/6.jpg);
+    background-size: cover;
+}
+.menu_box7 > .menu_scale{
+    background-image: url(img/7.jpg);
+    background-size: cover;
+}
+.menu_box8 > .menu_scale{
+    background-image: url(img/8.jpg);
+    background-size: cover;
+}
+.menu_box9 > .menu_scale{
+    background-image: url(img/9.jpg);
+    background-size: cover;
+}
+.menu_box10 > .menu_scale{
+    background-image: url(img/10.jpg);
+    background-size: cover;
+}
+.menu_box11 > .menu_scale{
+    background-image: url(img/11.jpg);
+    background-size: cover;
+}
+.menu_box12 > .menu_scale{
+    background-image: url(img/12.jpg);
+    background-size: cover;
+}
+.menu_box13 > .menu_scale{
+    background-image: url(img/13.jpg);
+    background-size: cover;
+}
+.menu_box14 > .menu_scale{
+    background-image: url(img/14.jpg);
+    background-size: cover;
+}
+.menu_box15 > .menu_scale{
+    background-image: url(img/15.jpg);
+    background-size: cover;
+}
+.menu_box:hover .menu_scale{
+    transform: scale(1.2);
+}
+.menu_box_name{
+    width: 70%;
+    height: auto;
+    padding: 20px 0;
+    color: rgb(58, 70, 142);
+    background-color: rgba(255, 255, 255, 0.854);
+    position: absolute;
+    top: -140px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .5s;
+    font-size: 13px;
+}
+.menu_box:hover .menu_box_name{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ///////////////////Work/////////////////////// */
+
+.work{
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(img/r1196-bg.webp);
+    background-size: cover;
+}
+.work_info{
+    width: 450px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.work_info > h1{
+    color: rgb(58, 70, 142);
+}
+.work_info > button{
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    background-color: rgb(191, 13, 13);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.work_info > button:hover{
+    background-color: white;
+    color: rgb(191, 13, 13);
+    border: 2px solid rgb(191, 13, 13);
+}
+.work_s{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.work_slide{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    overflow: auto;
+}
+.work_slide::-webkit-scrollbar{
+    height: 0;
+}
+.slide_1{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(img/slide1.jpg);
+    background-size: cover;
+}
+.slide_2{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(img/slide2.jpg);
+    background-size: cover;
+}
+
+.work_butts{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.slide_left{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 70, 142);
+    cursor: pointer;
+}
+
+.slide_right{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 70, 142);
+    cursor: pointer;
+}
+/* ///////////////////////////footer//////////////////////// */
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 70, 142);
+}
+.foot_icon{
+    display: flex;
+    color: white;
+    font-size: 45px;
+    gap: 30px;
+}
+.foot_icon > .fa-brands{
+    cursor: pointer;
+    transition: .3s;
+}
+.foot_icon .fa-brands:hover{
+    transform: scale(1.1) ;
+}

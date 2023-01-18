@@ -1,0 +1,114 @@
+@media screen and (max-width:1150px){
+    .head_menu a{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1130px){
+    .menu_main{
+        width: 100%;
+    }
+    .menu_box{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:1016px){
+    .work_info{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1000px){
+    .head_menu, .head_icon{
+        display: none;
+    }
+    .head_burger{
+        width: 55px;
+        height: 45px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .burger_line{
+        width: 100%;
+        height: 4px;
+        background-color: rgb(58, 70, 142);
+        position: absolute;
+        transition: .3s;
+    }
+    .burger_line1{
+        transform: translateY(-10px);
+    }
+    .burger_line3{
+        transform: translateY(10px);
+    }
+    .burger_line1_js{
+        transform: translate(0) rotate(45deg);
+    }
+    .burger_line3_js{
+        transform: translate(0) rotate(-45deg);
+    }
+    .burger_line2_js{
+        width: 0;
+    }
+    .burger_js_main{
+        width: 320px;
+        height: 100vh;
+        z-index: 10;
+        box-shadow: 0px 0px 4px black;
+        position: absolute;
+        transform: translateX(-390px);
+        top: 0;
+        transition: .3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .burger_js_anim{
+        transform: translate(0);
+        background-color: white;
+    }
+    .burger_js_logo{
+        width: 300px;
+        height: 100px;
+        background-image: url(img/logo-removebg-preview.png);
+        background-size: cover;
+        position: absolute;
+        top: 0;
+    }
+    .burger_menu {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .burger_menu > ul{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        font-size: 20px;
+        color: rgb(58, 70, 142);
+    }
+    .burger_menu a{
+        color: rgb(58, 70, 142);
+    }
+}
+
+@media screen and (max-width:600px){
+    .work_s{
+        width: 300px;
+        height: 300px;
+    }
+    .work_slide{
+        height: 200px;
+    }
+    .work_info{
+        padding: 0 5px;
+    }
+}
